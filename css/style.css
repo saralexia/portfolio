@@ -1,0 +1,226 @@
+.container {
+    width: 100%;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+margin-left: 0px;
+margin-right: 0px;
+}
+
+/* Nav */
+
+.navbar {
+  padding-right: 100px;
+}
+
+/*Home section styling*/
+
+.intro-header {
+    height : 100vh;
+    padding: 60px;
+    background-image: url('https://images.unsplash.com/photo-1453749024858-4bca89bd9edc?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+  }
+
+.intro-header h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  margin-top: 100px;
+}
+
+.intro-header h3 {
+  font-family: 'Rock Salt', serif;
+}
+
+ .social-links a {  
+  padding: 5px 12px;  
+}
+
+
+.social-links a:before {
+  margin-right:3px;
+}
+
+ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+li {
+  margin-left: 10px;
+}
+
+#linkedin {
+  background-color: #007bb5;
+}
+
+#linkedin:hover {
+  background-color: #005882;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#facebook:hover {
+  background-color: #2d4373;
+}
+
+#github {
+  color: white;
+  background-color: #000000;
+}
+
+#github:hover {
+  background-color: #444444;
+}
+
+#twitter {
+  color: white;
+  background-color: #55acee;
+}
+
+#twitter:hover {
+  background-color: #2795e9;
+  
+}
+
+.btn {
+  outline: none;
+  border: none;
+}
+
+
+/* About section styling */
+
+#about {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?crop=entropy&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family: josefin slab, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+#about-text{
+  position: absolute;
+  top: 40%;
+  margin: 0 150px;
+  text-align: justify;
+  transform: translate(0, -50%);
+}
+  
+
+/* Jewelry section styling */
+
+ .content-section-a {
+  height : 100vh;
+  padding-top: 60px;
+  background-image: url('https://images.unsplash.com/photo-1457040931721-53ca161dab33?crop=entropy&fit=crop&fm=jpg&h=1700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300') ;
+  background-attachment: fixed;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 45%; 
+  font-family: josefin slab, sans-serif;
+   
+  }
+
+.content-section-a img {
+  width: 250px;
+  margin-top: 15px;
+}
+
+
+.content-section-a .container {
+  border: 1px solid black;
+  background: white;
+  position: right;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+
+/* Code section styling */
+
+.content-section-b {
+    height : 100vh;
+    padding-top: 60px;
+    background-image: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=4b74433d714284e49de7f8a93fb52d88');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: yellow;
+   background-size: cover;
+   font-family: josefin slab, sans-serif;
+  }
+
+
+/* Code section styling */
+
+.content-section-b .container {
+  /* border: 1px solid grey; */
+  background: rgba(0, 0, 0, 0.80);
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.content-section-b img {
+  width: 250px;
+  margin-top: 25px;
+}
+
+.content-section-b .container {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+}
+
+/* Contact section styling */
+
+.content-section-c {
+  height: 100vh;
+  padding-top: 125px;
+  background: url("https://images.unsplash.com/1/work-station-straight-on-view.jpg?crop=entropy&dpr=0.90&fit=max&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
+  background-attachment: fixed;
+  color: yellow;
+  font-family: josefin slab, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -50px;
+  text-align: center justify;
+  }
+
+/* Media queries */
+
+@media(max-width:767px) {
+    .container {
+        padding-bottom: 15%;
+    }
+}
